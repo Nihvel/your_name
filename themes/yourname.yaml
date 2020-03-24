@@ -1,6 +1,6 @@
 yourname:
   ### Main Interface Colors ###
-  background-image: 'center / cover no-repeat url("/local/yourname1.jpg") fixed'
+  background-image: 'center / cover no-repeat url("/local/yourname.jpg") fixed'
   app-header-background-color: "#141A32"
   card-background-color: "#000000"
   primary-color: "#007AFF"
