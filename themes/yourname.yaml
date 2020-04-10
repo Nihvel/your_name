@@ -46,5 +46,5 @@ yourname:
   paper-toggle-button-unchecked-bar-color: "#303F79"
   ### Table row ###
   table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--secondary-background-color)
+  table-row-alternative-background-color: var(--primary-background-color)
   data-table-background-color: var(--primary-background-color)
