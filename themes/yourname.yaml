@@ -38,6 +38,7 @@ yourname:
   ha-card-border-radius: '20px' 
   paper-card-header-color: "#FFFFFF"
   ha-card-background-color: "rgba(0, 0, 0, 0.6)"
+  paper-card-background-color: "rgba(0, 0, 0, 0.6)"
   paper-listbox-background-color: var(--primary-background-color)
   ### Toggles ###
   paper-toggle-button-checked-button-color: "#FCFCFC"
