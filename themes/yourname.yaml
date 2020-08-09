@@ -1,6 +1,6 @@
 yourname:
   ### Main Interface Colors ###
-  background-image: 'center / cover no-repeat url("/local/yourname.jpg") fixed'
+  lovelace-background: 'center / cover no-repeat url("/local/yourname.jpg") fixed'
   app-header-background-color: "#141A32"
   card-background-color: var(--primary-background-color)
   primary-color: "#007AFF"
