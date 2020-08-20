@@ -50,14 +50,5 @@ Create when none exist.
 2. If you want the background too, copy it in `www`
 3. Restart Home Assistant
 
-### Enable the Background
-You can use **any** background image.   
-To enable the background:
-1. In your lovelace, click on `Configure UI > Raw configuration editor`
-2. Add the code below at the very beginning of the page
-<pre>
-background: var(--background-image)
-</pre>
-
 ### Enable the theme
 - Open your **Profile** in Home Assistant and select the theme called **yourname**
