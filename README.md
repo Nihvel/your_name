@@ -46,8 +46,8 @@ Create when none exist.
 4. Restart Home Assistant
 
 ### Manual installation
-1. Copy the file `yourname.yaml` from the folder themes of this Git into your Home Assistant themes folder
-2. If you want the background too, copy it in `www`
+1. Copy the file `yourname.yaml` into your Home Assistant themes folder
+2. Copy the `backgrounds` folder inside `www/`
 3. Restart Home Assistant
 
 ### Enable the theme
