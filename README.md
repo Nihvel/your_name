@@ -38,6 +38,8 @@ Create when none exist.
 ### <a name="bug"></a>Bug (?)
 - When installing with HACS the `backgrounds` folder is not created and with it also the background image is not copied. The theme is pointing to a non-existing location and after restarting Home Assistant you may not see the background image. If this happens, check the [Manual installation](#manual_installation) at step #2 and restart Home Assistant once again.
 
+- Transparency set for cards has an undesired effect on others Home Assistant resources. I still haven't found a fix for the recent breaking changes (not that recent actually), but it was time to update the theme anyway because if you were using Button-card you may have notice that the transparency wasn't working properly.
+
 ### <a name="screenshots"></a>Screenshots
 **Home overview**
 <p align="center">
