@@ -12,6 +12,7 @@ yourname:
   light-primary-color: "#4DA3FF"
   primary-background-color: var(--app-header-background-color)
   secondary-background-color: "#000000"
+  rgb-secondary-background-color: 0, 0, 0
   divider-color: "#3B4C8B"
   markdown-code-background-color: "#1E2747"
   ### Text ###
@@ -47,7 +48,7 @@ yourname:
   paper-card-header-color: var(--primary-text-color)
   paper-card-background-color: var(--ha-card-background)
   paper-listbox-background-color: var(--primary-background-color)
-  rgb-card-background-color: "rgba(0, 0, 0, 0.5)"
+  rgb-card-background-color: var(--rgb-secondary-background-color)
   ### Toggles ###
   paper-toggle-button-checked-button-color: "#FCFCFC"
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
