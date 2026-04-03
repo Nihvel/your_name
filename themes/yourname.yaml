@@ -1,69 +1,96 @@
-yourname:
-  dialog-backdrop-filter: blur(20px)
-  iron-overlay-backdrop-opacity: 1
-  iron-overlay-backdrop-background-color: rgba(0, 0, 0, 0.32)
-  ### Header Height ###
+Your Name.:
+  ### Give me blurrr ###
+  ha-dialog-scrim-backdrop-filter: "blur(14px)"
+  ha-dialog-scrim-background: "rgba(11, 16, 32, 0.48)"
+  
+  ### Typography ###
+  ha-font-family-body: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+  primary-font-family: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "'JetBrains Mono', 'Consolas', monospace"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--primary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"
+
+  ### Header ###
   header-height: 40px
-  ### Main Interface Colors ###
+  app-header-background-color: "rgba(20, 26, 50, 0.58)"
+  app-header-text-color: "#FFFFFF"
+
+  ### Main interface ###
   lovelace-background: 'center / cover no-repeat url("/local/backgrounds/yourname.jpg") fixed'
-  app-header-background-color: "#141A32"
-  card-background-color: "rgba(0, 0, 0, 0.5)"
-  primary-color: "#007AFF"
-  light-primary-color: "#4DA3FF"
-  primary-background-color: var(--app-header-background-color)
-  secondary-background-color: "#000000"
-  rgb-secondary-background-color: 0, 0, 0
-  divider-color: "#3B4C8B"
-  markdown-code-background-color: "#1E2747"
+  primary-color: "#6EB6FF"
+  light-primary-color: "#9DCAFF"
+  accent-color: "#6EB6FF"
+
+  primary-background-color: "#0B1020"
+  secondary-background-color: "#0F172A"
+  rgb-secondary-background-color: 15, 23, 42
+
+  divider-color: "rgba(157, 202, 255, 0.16)"
+  markdown-code-background-color: "rgba(16, 22, 40, 0.72)"
+
   ### Text ###
-  primary-text-color: "#FFFFFF"
-  secondary-text-color: var(--light-primary-color)
+  primary-text-color: "#F7FAFF"
+  secondary-text-color: "#B8CCEA"
   text-primary-color: var(--primary-text-color)
-  disabled-text-color: "#4F5F78"
-  ### Sidebar Menu ###
-  sidebar-icon-color: "#4F6B95"
-  sidebar-text-color: "#CBD5E4"
-  sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: var(--light-primary-color)
-  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
-  sidebar-background-color: var(--primary-background-color)
-  ### States and Badges ###
+  disabled-text-color: "#7183A6"
+
+  ### Sidebar ###
+  sidebar-background-color: "rgba(11, 16, 32, 0.58)"
+  sidebar-icon-color: "#8DA6CC"
+  sidebar-text-color: "#D9E6F7"
+  sidebar-selected-background-color: "rgba(110, 182, 255, 0.14)"
+  sidebar-selected-icon-color: "#A9D4FF"
+  sidebar-selected-text-color: "#F4F8FF"
+
+  ### States and badges ###
   state-icon-color: var(--primary-color)
   state-icon-active-color: "#FBCD41"
   state-icon-unavailable-color: var(--disabled-text-color)
+
+  label-badge-background-color: "rgba(255, 255, 255, 0.10)"
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: "#7E8FB8"
+  label-badge-yellow: "#DCA304"
+
+  ### Cards ###
+  ha-card-border-radius: "22px"
+  ha-card-background: "rgba(17, 25, 40, 0.42)"
+  card-background-color: "rgba(17, 25, 40, 0.42)"
+  paper-card-background-color: "rgba(17, 25, 40, 0.42)"
+  paper-card-header-color: var(--primary-text-color)
+  paper-listbox-background-color: "rgba(11, 16, 32, 0.72)"
+  rgb-card-background-color: 17, 25, 40
+
+  ### Inputs ###
+  input-fill-color: "rgba(255, 255, 255, 0.08)"
+  input-label-ink-color: var(--light-primary-color)
+  input-ink-color: var(--primary-color)
+  input-disabled-fill-color: "rgba(255, 255, 255, 0.04)"
+  input-disabled-ink-color: var(--disabled-text-color)
+
   ### Sliders ###
   paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
   paper-slider-secondary-color: var(--light-primary-color)
-  ### Labels ###
-  label-badge-background-color: var(--markdown-code-background-color)
-  label-badge-text-color: var(--primary-text-color)
-  label-badge-red: var(--divider-color)
-  label-badge-yellow: "#DCA304"
-  ### Cards ###
-  ha-card-border-radius: '20px'
-  ha-card-background: "rgba(0, 0, 0, 0.5)"
-  paper-card-header-color: var(--primary-text-color)
-  paper-card-background-color: var(--ha-card-background)
-  paper-listbox-background-color: var(--primary-background-color)
-  rgb-card-background-color: var(--rgb-secondary-background-color)
+
   ### Toggles ###
   paper-toggle-button-checked-button-color: "#FCFCFC"
   paper-toggle-button-checked-bar-color: var(--light-primary-color)
-  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
-  paper-toggle-button-unchecked-bar-color: "#303F79"
-  ### Table row ###
-  table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--primary-background-color)
-  data-table-background-color: var(--primary-background-color)
+  paper-toggle-button-unchecked-button-color: "#DDE7F5"
+  paper-toggle-button-unchecked-bar-color: "rgba(90, 107, 150, 0.5)"
+
   ### Switches ###
-  switch-unchecked-button-color: var(--divider-color)
-  switch-unchecked-track-color: var(--divider-color)
-  ### Inputs ###
-  input-fill-color: "rgba(0, 0, 0, 0.5)"
-  input-label-ink-color: var(--primary-color)
-  input-ink-color: var(--primary-color)
-  input-disabled-fill-color: "rgba(0, 0, 0, 0.33)"
-  input-disabled-ink-color: var(--disabled-primary-color)
+  switch-unchecked-button-color: "#7F93BB"
+  switch-unchecked-track-color: "rgba(127, 147, 187, 0.45)"
+
+  ### Tables ###
+  table-row-background-color: "rgba(11, 16, 32, 0.42)"
+  table-row-alternative-background-color: "rgba(255, 255, 255, 0.02)"
+  data-table-background-color: "rgba(11, 16, 32, 0.52)"
