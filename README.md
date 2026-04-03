@@ -25,8 +25,8 @@ frontend:
 4. Restart Home Assistant
 
 ## <a name="manual_installation"></a>Manual installation
-1. Copy the file `yourname.yaml` into your Home Assistant themes folder
-2. Create the folder `backgrounds` inside `www` and copy the background image `yourname.jpg` in it
+1. Copy the file `yourname.yaml` into your Home Assistant `themes` folder
+2. Create the folder `backgrounds` inside `www` and copy the background image `yourname.jpg` in it (www/backgrounds/yourname.jpg)
 3. Restart Home Assistant
 
 ## <a name="enable_the_theme"></a>Enable the theme
@@ -35,27 +35,17 @@ frontend:
 ## <a name="background_image"></a>Background image
 - When installing with HACS the `backgrounds` folder is not created and with it also the background image is not copied. The theme looks for the background image which does not exist thus won't show it. If this happens, check the [Manual installation](#manual_installation) at step #2 and restart Home Assistant once again.
 
-## <a name="screenshots"></a>Screenshots (old, but still okay)
+## <a name="screenshots"></a>Screenshots
 **Home overview**
 <p align="center">
-  <img src="https://i.imgur.com/51mOqfs.png">
+  <img src="./assets/home-overview.png" alt="Home overview">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/TUYxw0N.png">
-</p>
-
-**Dropdown menu black**
-<p align="center">
-  <img src="https://i.imgur.com/Kqi9iaL.png">
-</p>
-
-**Table**
-<p align="center">
-  <img src="https://i.imgur.com/I6UdSES.png">
+  <img src="./assets/settings-about.png" alt="Settings - About">
 </p>
 
 **Mobile**
 <p align="center">
-  <img src="https://i.imgur.com/cw0STX5.jpg">
+  <img src="./assets/mobile.png" alt="Mobile version">
 </p>
