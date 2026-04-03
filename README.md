@@ -36,16 +36,19 @@ frontend:
 - When installing with HACS the `backgrounds` folder is not created and with it also the background image is not copied. The theme looks for the background image which does not exist thus won't show it. If this happens, check the [Manual installation](#manual_installation) at step #2 and restart Home Assistant once again.
 
 ## <a name="screenshots"></a>Screenshots
+- I switched to a different background image so don't mind the difference.
+
 **Home overview**
 <p align="center">
   <img src="./assets/home-overview.png" alt="Home overview">
 </p>
 
+**Settings - About**
 <p align="center">
   <img src="./assets/settings-about.png" alt="Settings - About">
 </p>
 
 **Mobile**
 <p align="center">
-  <img src="./assets/mobile.png" alt="Mobile version">
+  <img src="./assets/mobile.png" alt="Mobile version" width="50%">
 </p>
