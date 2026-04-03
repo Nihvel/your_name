@@ -1,9 +1,8 @@
 Your Name.:
-  ### Backdrop / overlays ###
-  dialog-backdrop-filter: blur(24px)
-  iron-overlay-backdrop-opacity: 1
-  iron-overlay-backdrop-background-color: "rgba(8, 12, 24, 0.38)"
-
+  ### Give me blurrr ###
+  ha-dialog-scrim-backdrop-filter: "blur(14px)"
+  ha-dialog-scrim-background: "rgba(11, 16, 32, 0.48)"
+  
   ### Typography ###
   ha-font-family-body: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
   primary-font-family: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
