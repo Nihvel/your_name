@@ -63,22 +63,33 @@ The themes look for the image at `www/backgrounds/yourname.jpg`. You can use any
 
 ## <a name="screenshots"></a>Screenshots
 
-**Home overview**
+
+**Kataware-doki**
 <p align="center">
-  <img src="./assets/home-overview.png" alt="Home overview">
+  <img src="./assets/kataware-doki-home-overview.png" alt="Home overview">
 </p>
 
-**Settings - About**
+**Tiamat**
 <p align="center">
-  <img src="./assets/settings-about.png" alt="Settings - About">
+  <img src="./assets/tiamat-home-overview.png" alt="Home overview">
 </p>
 
-**Frosted glass**
+**Kataware-doki - Settings - About**
 <p align="center">
-  <img src="./assets/blurrr.jpg" alt="Blur effect">
+  <img src="./assets/kataware-doki-settings-about.png" alt="Settings - About">
 </p>
 
-**Mobile**
+**Tiamat - Settings - About**
 <p align="center">
-  <img src="./assets/mobile.png" alt="Mobile version" width="50%">
+  <img src="./assets/tiamat-settings-about.png" alt="Settings - About">
+</p>
+
+**Kataware-doki - Mobile**
+<p align="center">
+  <img src="./assets/kataware-doki-mobile.png" alt="Mobile version" width="50%">
+</p>
+
+**Tiamat - Mobile**
+<p align="center">
+  <img src="./assets/tiamat-mobile.png" alt="Mobile version" width="50%">
 </p>
