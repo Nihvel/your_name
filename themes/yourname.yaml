@@ -20,7 +20,7 @@
 # ══════════════════════════════════════════════════════════════════
 
 
-Your Name. — Kataware-doki:
+Your Name. - Kataware-doki:
   # ══════════════════════════════════════════════════════════════
   # KATAWARE-DOKI
   # The split-twilight moment — the sky bruised lavender,
@@ -32,8 +32,8 @@ Your Name. — Kataware-doki:
   ha-dialog-scrim-background: "rgba(6, 7, 20, 0.58)"
 
   # ── 2. Typography ─────────────────────────────────────────────
-  ha-font-family-body: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-  primary-font-family: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+  ha-font-family-body: "'Plus Jakarta Sans', 'Figtree', system-ui, Arial, sans-serif"
+  primary-font-family: "'Plus Jakarta Sans', 'Figtree', system-ui, Arial, sans-serif"
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "'JetBrains Mono', 'Consolas', monospace"
   paper-font-body1_-_font-family: "var(--primary-font-family)"
@@ -218,7 +218,7 @@ Your Name. — Kataware-doki:
   mdc-ripple-press-opacity: "0.11"
 
 
-Your Name. — Tiamat:
+Your Name. - Tiamat:
   # ══════════════════════════════════════════════════════════════
   # TIAMAT
   # The comet itself — its ion tail blazes electric blue across
@@ -241,8 +241,8 @@ Your Name. — Tiamat:
   ha-dialog-scrim-background: "rgba(4, 10, 24, 0.60)"
 
   # ── 2. Typography ─────────────────────────────────────────────
-  ha-font-family-body: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-  primary-font-family: "'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+  ha-font-family-body: "'Sora', 'DM Sans', system-ui, Arial, sans-serif"
+  primary-font-family: "'Sora', 'DM Sans', system-ui, Arial, sans-serif"
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "'JetBrains Mono', 'Consolas', monospace"
   paper-font-body1_-_font-family: "var(--primary-font-family)"
