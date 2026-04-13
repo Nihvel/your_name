@@ -78,7 +78,7 @@ Your Name. - Kataware-doki:
   secondary-text-color: "#9A8DC0"
   text-primary-color: "var(--primary-text-color)"
   disabled-text-color: "#544A72"
-  text-accent-color: "var(--accent-color)"
+  text-accent-color: "#1C3557"
   error-state-color: "var(--error-color)"
 
   # ── 8. Dividers & Code ────────────────────────────────────────
@@ -293,7 +293,7 @@ Your Name. - Tiamat:
   secondary-text-color: "#7EB8D8"
   text-primary-color: "var(--primary-text-color)"
   disabled-text-color: "#2E4D6A"
-  text-accent-color: "var(--accent-color)"
+  text-accent-color: "#1C3557"
   error-state-color: "var(--error-color)"
 
   # ── 8. Dividers & Code ────────────────────────────────────────
