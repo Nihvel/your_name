@@ -57,7 +57,7 @@ Set the resource type to **Stylesheet**. No restart needed. Hard-refresh your br
 > This requires your Home Assistant instance to have internet access. If you run fully offline the themes fall back to your system font automatically.
 
 ## <a name="background_image"></a>Background image
-When installing via HACS the background image is not copied automatically. If the theme loads but shows no background, follow step 2 of the [Manual installation](#manual_installation) and restart Home Assistant.
+When installing via HACS the background image is not copied automatically. If the theme loads but shows no background, either follow step 2 of the [Manual installation](#manual_installation) and restart Home Assistant, or simply `edit` your current dashboard's `view` and [apply a background image](https://www.home-assistant.io/dashboards/views/#background).
 
 The themes look for the image at `www/backgrounds/yourname.jpg`. You can use any image you like, just keep the filename and path.
 
