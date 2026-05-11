@@ -66,30 +66,30 @@ The themes look for the image at `www/backgrounds/yourname.jpg`. You can use any
 
 **Kataware-doki**
 <p align="center">
-  <img src="./assets/kataware-doki-home-overview.png" alt="Home overview">
+  <img src="https://github.com/Nihvel/your_name/blob/2261e6f4e1ed24cb236fc4cc97bef3f5b2e80587/assets/kataware-doki-home-overview.png" alt="Home overview">
 </p>
 
 **Tiamat**
 <p align="center">
-  <img src="./assets/tiamat-home-overview.png" alt="Home overview">
+  <img src="https://github.com/Nihvel/your_name/blob/2261e6f4e1ed24cb236fc4cc97bef3f5b2e80587/assets/tiamat-home-overview.png" alt="Home overview">
 </p>
 
 **Kataware-doki - Settings - About**
 <p align="center">
-  <img src="./assets/kataware-doki-settings-about.png" alt="Settings - About">
+  <img src="https://github.com/Nihvel/your_name/blob/2261e6f4e1ed24cb236fc4cc97bef3f5b2e80587/assets/kataware-doki-settings-about.png" alt="Settings - About">
 </p>
 
 **Tiamat - Settings - About**
 <p align="center">
-  <img src="./assets/tiamat-settings-about.png" alt="Settings - About">
+  <img src="https://github.com/Nihvel/your_name/blob/2261e6f4e1ed24cb236fc4cc97bef3f5b2e80587/assets/tiamat-settings-about.png" alt="Settings - About">
 </p>
 
 **Kataware-doki - Mobile**
 <p align="center">
-  <img src="./assets/kataware-doki-mobile.png" alt="Mobile version" width="50%">
+  <img src="https://github.com/Nihvel/your_name/blob/2261e6f4e1ed24cb236fc4cc97bef3f5b2e80587/assets/kataware-doki-mobile.png" alt="Mobile version" width="50%">
 </p>
 
 **Tiamat - Mobile**
 <p align="center">
-  <img src="./assets/tiamat-mobile.png" alt="Mobile version" width="50%">
+  <img src="https://github.com/Nihvel/your_name/blob/2261e6f4e1ed24cb236fc4cc97bef3f5b2e80587/assets/tiamat-mobile.png" alt="Mobile version" width="50%">
 </p>
