@@ -158,6 +158,10 @@ Your Name. - Kataware-doki:
   switch-checked-track-color: "var(--primary-color)"
   switch-unchecked-button-color: "#8276AA"
   switch-unchecked-track-color: "rgba(88, 74, 128, 0.40)"
+  ha-switch-checked-background-color: "var(--secondary-background-color)"
+  ha-switch-checked-border-color: "var(--secondary-background-color)"
+  ha-switch-checked-thumb-background-color: "var(--primary-color)"
+  ha-switch-checked-thumb-border-color: "var(--primary-color)"
 
   # ── 15. States, Icons & Badges ────────────────────────────────
   state-icon-color: "var(--primary-color)"
@@ -378,6 +382,10 @@ Your Name. - Tiamat:
   switch-checked-track-color: "var(--primary-color)"
   switch-unchecked-button-color: "#3E6882"
   switch-unchecked-track-color: "rgba(40, 80, 120, 0.42)"
+  ha-switch-checked-background-color: "var(--secondary-background-color)"
+  ha-switch-checked-border-color: "var(--secondary-background-color)"
+  ha-switch-checked-thumb-background-color: "var(--primary-color)"
+  ha-switch-checked-thumb-border-color: "var(--primary-color)"
 
   # ── 15. States, Icons & Badges ────────────────────────────────
   # Active → comet amber (the nucleus burns warm even in the blue tail)
