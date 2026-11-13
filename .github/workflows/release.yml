@@ -29,7 +29,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           default_bump: patch
-          initial_version: 1.0.3
+          # Existing release tags have no "v" prefix (1.0.3, 1.0.4).
+          # The action defaults to "v", which made it ignore them and
+          # start again at v0.0.1.
+          tag_prefix: ""
 
       - name: Create release
         uses: softprops/action-gh-release@v2

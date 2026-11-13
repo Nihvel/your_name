@@ -10,7 +10,7 @@ Two dark variants, both built around frosted glass cards, a blurred background, 
 ---
 
 * [Prerequisites](#prerequisites)
-* [HACS installation](#hacs_installation)
+* [Marketplace installation](#marketplace_installation)
 * [Manual installation](#manual_installation)
 * [Enable the theme](#enable_the_theme)
 * [Fonts](#fonts)
@@ -27,8 +27,8 @@ frontend:
 
 2. Create the folder **themes** next to the **configuration.yaml** file
 
-## <a name="hacs_installation"></a>HACS installation
-1. Open the Community Store (HACS)
+## <a name="marketplace_installation"></a>Marketplace installation
+1. Open the Marketplace (formerly HACS)
 2. Search for `Your Name.`
 3. Install it
 4. Restart Home Assistant
@@ -57,7 +57,7 @@ Set the resource type to **Stylesheet**. No restart needed. Hard-refresh your br
 > This requires your Home Assistant instance to have internet access. If you run fully offline the themes fall back to your system font automatically.
 
 ## <a name="background_image"></a>Background image
-When installing via HACS the background image is not copied automatically. If the theme loads but shows no background, either follow step 2 of the [Manual installation](#manual_installation) and restart Home Assistant, or simply `edit` your current dashboard's `view` and [apply a background image](https://www.home-assistant.io/dashboards/views/#background).
+When installing via the Marketplace the background image is not copied automatically. If the theme loads but shows no background, either follow step 2 of the [Manual installation](#manual_installation) and restart Home Assistant, or simply `edit` your current dashboard's `view` and [apply a background image](https://www.home-assistant.io/dashboards/views/#background).
 
 The themes look for the image at `www/backgrounds/yourname.jpg`. You can use any image you like, just keep the filename and path.
 

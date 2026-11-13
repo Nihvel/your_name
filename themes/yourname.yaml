@@ -16,7 +16,8 @@
 #   Comet Tiamat amber accent  →  #E8933A
 #   Lake Itomori teal          →  #6BC4D4
 #   Same typography and sizing
-#   Same structural token coverage (20 sections)
+#   Same structural token coverage (21 sections)
+#   Dark mode declared via `modes: dark`, so HA uses its dark fallbacks
 # ══════════════════════════════════════════════════════════════════
 
 
@@ -36,6 +37,7 @@ Your Name. - Kataware-doki:
   primary-font-family: "'Plus Jakarta Sans', 'Figtree', system-ui, Arial, sans-serif"
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "'JetBrains Mono', 'Consolas', monospace"
+  ha-font-family-code: "'JetBrains Mono', 'Consolas', monospace"
   paper-font-body1_-_font-family: "var(--primary-font-family)"
   paper-font-subhead_-_font-family: "var(--primary-font-family)"
   paper-font-headline_-_font-family: "var(--primary-font-family)"
@@ -60,6 +62,7 @@ Your Name. - Kataware-doki:
   primary-color: "#B48FFF"
   light-primary-color: "#CEBFFF"
   dark-primary-color: "#8260D8"
+  darker-primary-color: "#6244B8"
   accent-color: "#E8933A"
   light-accent-color: "#F2B06A"
   error-color: "#CF5070"
@@ -72,6 +75,7 @@ Your Name. - Kataware-doki:
   secondary-background-color: "#0E1030"
   rgb-primary-background-color: "10, 11, 30"
   rgb-secondary-background-color: "14, 16, 48"
+  clear-background-color: "var(--primary-background-color)"
 
   # ── 7. Text ───────────────────────────────────────────────────
   primary-text-color: "#EAE6F8"
@@ -83,6 +87,8 @@ Your Name. - Kataware-doki:
 
   # ── 8. Dividers & Code ────────────────────────────────────────
   divider-color: "rgba(180, 143, 255, 0.13)"
+  outline-color: "rgba(180, 143, 255, 0.16)"
+  outline-hover-color: "rgba(180, 143, 255, 0.32)"
   markdown-code-background-color: "rgba(10, 8, 26, 0.72)"
 
   # ── 9. Sidebar ────────────────────────────────────────────────
@@ -200,9 +206,9 @@ Your Name. - Kataware-doki:
   energy-home-color: "#BCB2DE"
   energy-gas-color: "#F2B06A"
   energy-water-color: "#6BC4D4"
+  energy-non-fossil-color: "#64C9A0"
 
   # ── 19. Modern HA Color API ───────────────────────────────────
-  ha-color-neutral-95: "#060714"
   wa-color-surface-default: "#07081C"
   ha-color-fill-primary-quiet-resting: "rgba(180, 143, 255, 0.16)"
   ha-color-fill-primary-quiet-hover: "rgba(180, 143, 255, 0.26)"
@@ -224,6 +230,38 @@ Your Name. - Kataware-doki:
   scrollbar-thumb-color: "rgba(180, 143, 255, 0.22)"
   mdc-ripple-color: "var(--primary-color)"
   mdc-ripple-press-opacity: "0.11"
+
+  # ── 21. Dark Mode & Core Palettes ─────────────────────────────
+  # Declaring a dark mode makes HA render this theme as a dark theme.
+  # Without it HA falls back to its light defaults for every token
+  # the theme does not set, which shows up as white buttons and fills
+  # on newer UI components. The ramps below replace HA's blue/grey core
+  # palettes, so every derived fill, border and on-colour follows the
+  # lavender twilight instead of the stock Home Assistant blue.
+  modes:
+    dark:
+      ha-color-primary-05: "#181125"
+      ha-color-primary-10: "#2F2446"
+      ha-color-primary-20: "#433461"
+      ha-color-primary-30: "#6A5397"
+      ha-color-primary-40: "#9D7DDE"
+      ha-color-primary-50: "#BF9DFF"
+      ha-color-primary-60: "#CAACFF"
+      ha-color-primary-70: "#D6BEFF"
+      ha-color-primary-80: "#E8D9FF"
+      ha-color-primary-90: "#F4EDFF"
+      ha-color-primary-95: "#FAF6FF"
+      ha-color-neutral-05: "#16121F"
+      ha-color-neutral-10: "#221E2C"
+      ha-color-neutral-20: "#383443"
+      ha-color-neutral-30: "#4C4857"
+      ha-color-neutral-40: "#605C6C"
+      ha-color-neutral-50: "#7C7888"
+      ha-color-neutral-60: "#9B96A7"
+      ha-color-neutral-70: "#B4AFC0"
+      ha-color-neutral-80: "#CFC9DC"
+      ha-color-neutral-90: "#E9E3F6"
+      ha-color-neutral-95: "#F5F1FF"
 
 
 Your Name. - Tiamat:
@@ -253,6 +291,7 @@ Your Name. - Tiamat:
   primary-font-family: "'Sora', 'DM Sans', system-ui, Arial, sans-serif"
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "'JetBrains Mono', 'Consolas', monospace"
+  ha-font-family-code: "'JetBrains Mono', 'Consolas', monospace"
   paper-font-body1_-_font-family: "var(--primary-font-family)"
   paper-font-subhead_-_font-family: "var(--primary-font-family)"
   paper-font-headline_-_font-family: "var(--primary-font-family)"
@@ -279,6 +318,7 @@ Your Name. - Tiamat:
   primary-color: "#3BBCFF"
   light-primary-color: "#7DD4FF"
   dark-primary-color: "#0096D8"
+  darker-primary-color: "#00699A"
   # Comet amber accent — identical to Kataware-doki (the twin bond)
   accent-color: "#E8933A"
   light-accent-color: "#F2B06A"
@@ -294,6 +334,7 @@ Your Name. - Tiamat:
   secondary-background-color: "#0B1628"
   rgb-primary-background-color: "7, 16, 30"
   rgb-secondary-background-color: "11, 22, 40"
+  clear-background-color: "var(--primary-background-color)"
 
   # ── 7. Text ───────────────────────────────────────────────────
   # Cool-white with a blue undertone — starlight on dark water
@@ -307,6 +348,8 @@ Your Name. - Tiamat:
   # ── 8. Dividers & Code ────────────────────────────────────────
   # Electric blue tint — thin but unmistakable
   divider-color: "rgba(59, 188, 255, 0.13)"
+  outline-color: "rgba(59, 188, 255, 0.16)"
+  outline-hover-color: "rgba(59, 188, 255, 0.32)"
   markdown-code-background-color: "rgba(5, 14, 30, 0.74)"
 
   # ── 9. Sidebar ────────────────────────────────────────────────
@@ -431,10 +474,10 @@ Your Name. - Tiamat:
   energy-home-color: "#90C4E0"
   energy-gas-color: "#F2B06A"
   energy-water-color: "#6BC4D4"
+  energy-non-fossil-color: "#4DCFAA"
 
   # ── 19. Modern HA Color API ───────────────────────────────────
   # Blue-mapped equivalents of all ha-color-* / wa-color-* tokens
-  ha-color-neutral-95: "#040C1A"
   wa-color-surface-default: "#07101E"
   ha-color-fill-primary-quiet-resting: "rgba(59, 188, 255, 0.14)"
   ha-color-fill-primary-quiet-hover: "rgba(59, 188, 255, 0.24)"
@@ -456,3 +499,32 @@ Your Name. - Tiamat:
   scrollbar-thumb-color: "rgba(59, 188, 255, 0.22)"
   mdc-ripple-color: "var(--primary-color)"
   mdc-ripple-press-opacity: "0.11"
+
+  # ── 21. Dark Mode & Core Palettes ─────────────────────────────
+  # Same mechanism as Kataware-doki: the dark mode switches HA's own
+  # fallbacks to their dark variants, and the ramps recolour every
+  # derived fill, border and on-colour in comet blue and cold navy.
+  modes:
+    dark:
+      ha-color-primary-05: "#011723"
+      ha-color-primary-10: "#042D41"
+      ha-color-primary-20: "#09405B"
+      ha-color-primary-30: "#11658D"
+      ha-color-primary-40: "#2198D1"
+      ha-color-primary-50: "#31B9FD"
+      ha-color-primary-60: "#64C4FF"
+      ha-color-primary-70: "#8FD0FF"
+      ha-color-primary-80: "#C2E4FF"
+      ha-color-primary-90: "#E2F2FF"
+      ha-color-primary-95: "#F1F8FF"
+      ha-color-neutral-05: "#001720"
+      ha-color-neutral-10: "#0F222C"
+      ha-color-neutral-20: "#263943"
+      ha-color-neutral-30: "#3A4D58"
+      ha-color-neutral-40: "#4D616C"
+      ha-color-neutral-50: "#697D89"
+      ha-color-neutral-60: "#879BA8"
+      ha-color-neutral-70: "#9FB4C1"
+      ha-color-neutral-80: "#BACFDD"
+      ha-color-neutral-90: "#D4E9F7"
+      ha-color-neutral-95: "#E7F5FF"
